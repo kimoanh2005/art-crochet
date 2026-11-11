@@ -527,7 +527,7 @@ class _ChartDesignerScreenState extends State<ChartDesignerScreen> {
         ],
       ),
     );
-    controller.dispose();
+    
     if (instruction == null || !mounted) return;
     setState(() {
       if (instruction.trim().isEmpty) {
