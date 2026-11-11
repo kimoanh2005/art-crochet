@@ -275,10 +275,7 @@ class YarnColorsScreen extends StatelessWidget {
         ],
       ),
     );
-    nameController.dispose();
-    hexController.dispose();
-    brandController.dispose();
-    codeController.dispose();
+  
   }
 }
 
